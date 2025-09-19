@@ -1,3 +1,3 @@
-# comp_sci_test
+# comp-sci-test
 
 *code*
