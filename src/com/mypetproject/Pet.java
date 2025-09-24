@@ -1,3 +1,5 @@
+package com.mypetproject;
+
 public class Pet{
 
     //attribute fields
