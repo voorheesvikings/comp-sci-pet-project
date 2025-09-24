@@ -3,7 +3,7 @@ package com.mypetproject;
 public class Pet{
 
     //attribute fields
-    private String species;
+    public String species;
     
     //contstructor method:
     public Pet(String species) {

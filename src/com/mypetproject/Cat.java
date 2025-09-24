@@ -11,6 +11,6 @@ public class Cat extends Pet {
     }
 
     public void getDetails() {
-        System.out.println("This cat is a " + color + " cat and is " + age + " years old.");
+        System.out.println("This" + species + " is a " + color + " cat and is " + age + " years old.");
     }
 }
