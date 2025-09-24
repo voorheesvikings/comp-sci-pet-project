@@ -24,7 +24,27 @@ public class Pet{
             
             Thread.currentThread().interrupt(); 
         }
-
+        System.out.println("calculating the derivative of x^2...");
+        try {
+            Thread.sleep(2000); 
+        } catch (InterruptedException e) {
+            
+            Thread.currentThread().interrupt(); 
+        }
+        System.out.println("calculating the integral of 4...");
+        try {
+            Thread.sleep(2000); 
+        } catch (InterruptedException e) {
+            
+            Thread.currentThread().interrupt(); 
+        }
+        System.out.println("calculating the limit of x^2/|x|...");
+        try {
+            Thread.sleep(1000); 
+        } catch (InterruptedException e) {
+            
+            Thread.currentThread().interrupt(); 
+        }
         System.out.println("This pet is a "  + species);
         return;
     }
